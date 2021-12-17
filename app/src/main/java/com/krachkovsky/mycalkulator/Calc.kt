@@ -11,6 +11,7 @@ fun main() {
         val counter = Counter(CalculateCommand(calculator))
         counter.calculate()
         prevResult = calculator.result.toString()
+        //new comment
         while (true) {
             print("To continue with previous result print - pr,\n" +
                     "to clear and continue - c\n" +
