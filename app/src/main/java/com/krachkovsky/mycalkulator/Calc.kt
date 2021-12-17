@@ -11,6 +11,7 @@ fun main() {
         val counter = Counter(CalculateCommand(calculator))
         counter.calculate()
         prevResult = calculator.result.toString()
+        //Change something!
         while (true) {
             print("To continue with previous result print - pr,\n" +
                     "to clear and continue - c\n" +
@@ -27,6 +28,7 @@ fun main() {
             } else {
                 println("Incorrect input! Try again")
             }
+            //And here
         }
     }
 }
